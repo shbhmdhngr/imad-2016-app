@@ -1,243 +1,244 @@
-<!DOCTYPE html>
-<html lang="en">
-
+<html>
 <head>
-
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
-
-    <title>Blog Post - Start Bootstrap Template</title>
-
-    <!-- Bootstrap Core CSS -->
-    <link href="ui/css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Custom CSS -->
-    <link href="ui/css/blog-post.css" rel="stylesheet">
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
+	<title>Inventive Blogger Template</title>
 </head>
+<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'/>
 
+<style>
+body{
+background: url(img/inventive.png)repeat fixed center center #222222;
+background-repeat: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+}
+hr{
+border-bottom: 3px solid #000;
+}
+.main-outer{
+width: 70%;
+margin: 0 auto;
+}
+img{
+  border-radius: 5px 5px 0 0;
+}
+h1 {
+background: #333;
+color: #fff;
+background-image: linear-gradient(57deg, transparent 20%, rgba(0,0,0,.2) 0%, rgba(0,0,0,.2) 79%, transparent 0%);
+  z-index: -1;
+padding: 20px;
+text-align: center;
+font-family: "Montserrat",sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 50px;
+margin:0;
+margin-top: 0px;
+}
+.milky{
+font-family: "Montserrat",sans-serif;word-spacing: 10px; font-weight: 700; font-size: 50px;
+}
+p{font-family: monospace;
+  letter-spacing: -1px;}
+  li{font-family: monospace;
+  letter-spacing: -1px;}
+.content {
+font-family: Roboto Slab;
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+background:#fff;
+color: #555;
+border-bottom:1px solid #ddd;
+padding-right:20px;
+padding-left:20px;padding-bottom:20px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+pre {
+    background-color:white;
+    background-image:-webkit-linear-gradient(top, #f5f5f5 50%, white 50%);
+    background-image:-moz-linear-gradient(top, #f5f5f5 50%, white 50%);
+    background-image:-ms-linear-gradient(top, #f5f5f5 50%, white 50%);
+    background-image:-o-linear-gradient(top, #f5f5f5 50%, white 50%);
+    background-image:linear-gradient(top, #f5f5f5 50%, white 50%);
+    -webkit-background-size:30px 30px;
+    -moz-background-size:30px 30px;
+    -ms-background-size:30px 30px;
+    -o-background-size:30px 30px;
+    background-size:30px 30px;
+    background-repeat:repeat;
+    font:bold 12px/15px "Inconsolata","Monaco","Consolas","Andale Mono","Bitstream Vera Sans Mono","Courier New",Courier,monospace;
+    color:#333;
+    border:2px solid #666;
+    position:relative;
+    padding:0 7px;
+    margin:10px 0;
+    overflow:auto;
+    word-wrap:normal;
+    white-space:pre;
+    -webkit-box-shadow:0 1px 2px rgba(0,0,0,0.2);
+    -moz-box-shadow:0 1px 2px rgba(0,0,0,0.2);
+    box-shadow:0 1px 2px rgba(0,0,0,0.2);
+    position:relative;
+}
+
+pre[data-codetype] {
+    padding:29px 1em 7px 1em;
+}
+
+pre[data-codetype]:before {
+    content:attr(data-codetype);
+    display:block;
+    position:absolute;
+    top:0;
+    right:0;
+	width: 111%;
+    left:0;
+    background-color:#666;
+    padding:0 7px;
+    font:bold 11px/20px Arial,Sans-Serif;
+    color:white;
+}
+
+pre[data-codetype="HTML"]       {border-color:#1ABC9C;color:#08464B;}
+
+
+pre[data-codetype="HTML"]:before          {background-color:#1ABC9C;}
+ul{
+text-transform: capitalize;
+}
+</style>
 <body>
+<div class="main-outer">
+<img src='img/inventive.png'/>
+<h1 class="milky"><h style="color:#1ABC9C;">INVENTIVE</h></b> Blogger Template</h1>
+<div class="content">
+<h1 style="background: none;color: #000;border-bottom:3px solid #000;">The Main Features Of INVENTIVE</h1>
+<ul><li>Nice and Clean Design</li>
+<li>Responsive Theme Layout</li>
+<li>Elegant look</li>
+<li>SEO Optimized</li>
+<li>Fast loading Theme</li>
+<li>Responsive Navigation Menu</li>
+<li>Page navigation Widget</li>
+</ul>
+<br>
+<hr>
+<h1 style="
+    background: none;
+    color: #000;
+">Edit Navigation Section</h1>
+<center><img src="img/1.png" style="width:inherit;"></img></center>
+ <p> Go to Blogger.com > Your Blog > Template > Edit HTML and find the following text:- &lt;!-- Top Navigation --&gt;</p>
+<center><img src="img/2.png" style="width:inherit;"></img></center>
+<hr>
 
-    <!-- Navigation -->
-    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-        <div class="container">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="#">Start Bootstrap</a>
-            </div>
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav">
-                    <li>
-                        <a href="#">About</a>
-                    </li>
-                    <li>
-                        <a href="#">Services</a>
-                    </li>
-                    <li>
-                        <a href="#">Contact</a>
-                    </li>
-                </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container -->
-    </nav>
+<h1 style="
+    background: none;
+    color: #000;
+">Top Social Icons</h1>
+<center>
+<img src="img/3.png" style="width: inherit;"></img>
+</center>
+<p>Go to Blogger.com > Your Blog > Template > Edit HTML and find the following text:- &lt;!-- Social Links Section--&gt;</p>
 
-    <!-- Page Content -->
-    <div class="container">
+<img src="img/4.png"></img>
+<pre data-codetype="HTML">
+&lt;!-- Social Links Section--&gt;
+&lt;div class=&#39;social-links fr&#39;&gt;
+&lt;a class=&#39;icon-fb&#39; href=&#39;#&#39;&gt;&lt;i class=&#39;fa fa-facebook&#39;/&gt;&lt;/a&gt;
+&lt;a class=&#39;icon-tw&#39; href=&#39;#&#39;&gt;&lt;i class=&#39;fa fa-twitter&#39;/&gt;&lt;/a&gt;
+&lt;a class=&#39;icon-gp&#39; href=&#39;#&#39;&gt;&lt;i class=&#39;fa fa-google-plus&#39;/&gt;&lt;/a&gt;
+&lt;a class=&#39;icon-in&#39; href=&#39;#&#39;&gt;&lt;i class=&#39;fa fa-instagram&#39;/&gt;&lt;/a&gt;
+&lt;a class=&#39;icon-rss&#39; href=&#39;#&#39;&gt;&lt;i class=&#39;fa fa-rss&#39;/&gt;&lt;/a&gt;
+&lt;/div&gt;
+&lt;!-- Social Links Section End--&gt;
+</pre>
+<p>Now change all of the links with your own.</p>
+<hr>
 
-        <div class="row">
+<h1 style="
+    background: none;
+    color: #000;
+">Edit About Me</h1>
+<p>Go to Blogger.com > Your Blog > Template > Edit HTML and find the following text:- &lt;!-- Section About --&gt; </p>
+<center>
+<img src="img/5.png" ></img>
+</center>
+<hr>
+<center>
+<h1 style="background: none;color: #000;  font-size: 20px;">Change Avtar</h1>
+<img src="img/6.png"></img>
+</center>
+<p>Now change image link with your own.</p>
+<hr>
+<br>
 
-            <!-- Blog Post Content Column -->
-            <div class="col-lg-8">
+<h1 style="
+    background: none;
+    color: #000;
+">Edit RESUME</h1>
+<center>
+<img src="img/7.png" ></img>
+</center>      
+ <p>
+Go to Blogger.com > Your Blog > Template > Edit HTML and find the following text:- &lt;!-- Section Resume --&gt;
+</p>
+<img src="img/8.png" style="width:inherit;"></img>
+<hr>
+<br>
 
-                <!-- Blog Post -->
+<h1 style="
+    background: none;
+    color: #000;
+">Edit SKILLS</h1>
+<center>
+<img src="img/9.png" ></img>
+</center>      
+ <p>
+Go to Blogger.com > Your Blog > Template > Edit HTML and find the following text:- &lt;!-- START container FLUID, SKILLS & THINGS --&gt;
+</p>
+<img src="img/10.png" style="width:inherit;"></img>
+<h1 style="background: none;color: #000;  font-size: 20px;">Change Icons</h1>
+Get The Icons Code From Here https://linearicons.com/free
+<hr>
+<br>
 
-                <!-- Title -->
-                <h1>Blog Post Title</h1>
+<h1 style="
+    background: none;
+    color: #000;
+">Edit SERVICES</h1>
+<center>
+<img src="img/14.png" ></img>
+</center>      
+ <p>
+Go to Blogger.com > Your Blog > Template > Edit HTML and find the following text:- &lt;!-- Section Services --&gt;
+</p>
+<img src="img/15.png" style="width:inherit;"></img>
+<hr>
+<br>
 
-                <!-- Author -->
-                <p class="lead">
-                    by <a href="#">Start Bootstrap</a>
-                </p>
+<h1 style="
+    background: none;
+    color: #000;
+">Edit CONTACT</h1>
+<center>
+<img src="img/16.png" style="width:inherit;"></img>
+</center>      
+ <p>
+Go to Blogger.com > Your Blog > Template > Edit HTML and find the following text:- &lt;!-- Contact Adress --&gt;
+</p>
+<img src="img/17.png" style="width:inherit;"></img>
 
-                <hr>
 
-                <!-- Date/Time -->
-                <p><span class="glyphicon glyphicon-time"></span> Posted on August 24, 2013 at 9:00 PM</p>
-
-                <hr>
-
-                <!-- Preview Image -->
-                <img class="img-responsive" src="http://placehold.it/900x300" alt="">
-
-                <hr>
-
-                <!-- Post Content -->
-                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus, vero, obcaecati, aut, error quam sapiente nemo saepe quibusdam sit excepturi nam quia corporis eligendi eos magni recusandae laborum minus inventore?</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut, tenetur natus doloremque laborum quos iste ipsum rerum obcaecati impedit odit illo dolorum ab tempora nihil dicta earum fugiat. Temporibus, voluptatibus.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, doloribus, dolorem iusto blanditiis unde eius illum consequuntur neque dicta incidunt ullam ea hic porro optio ratione repellat perspiciatis. Enim, iure!</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error, nostrum, aliquid, animi, ut quas placeat totam sunt tempora commodi nihil ullam alias modi dicta saepe minima ab quo voluptatem obcaecati?</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum, dolor quis. Sunt, ut, explicabo, aliquam tenetur ratione tempore quidem voluptates cupiditate voluptas illo saepe quaerat numquam recusandae? Qui, necessitatibus, est!</p>
-
-                <hr>
-
-                <!-- Blog Comments -->
-
-                <!-- Comments Form -->
-                <div class="well">
-                    <h4>Leave a Comment:</h4>
-                    <form role="form">
-                        <div class="form-group">
-                            <textarea class="form-control" rows="3"></textarea>
-                        </div>
-                        <button type="submit" class="btn btn-primary">Submit</button>
-                    </form>
-                </div>
-
-                <hr>
-
-                <!-- Posted Comments -->
-
-                <!-- Comment -->
-                <div class="media">
-                    <a class="pull-left" href="#">
-                        <img class="media-object" src="http://placehold.it/64x64" alt="">
-                    </a>
-                    <div class="media-body">
-                        <h4 class="media-heading">Start Bootstrap
-                            <small>August 25, 2014 at 9:30 PM</small>
-                        </h4>
-                        Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
-                    </div>
-                </div>
-
-                <!-- Comment -->
-                <div class="media">
-                    <a class="pull-left" href="#">
-                        <img class="media-object" src="http://placehold.it/64x64" alt="">
-                    </a>
-                    <div class="media-body">
-                        <h4 class="media-heading">Start Bootstrap
-                            <small>August 25, 2014 at 9:30 PM</small>
-                        </h4>
-                        Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
-                        <!-- Nested Comment -->
-                        <div class="media">
-                            <a class="pull-left" href="#">
-                                <img class="media-object" src="http://placehold.it/64x64" alt="">
-                            </a>
-                            <div class="media-body">
-                                <h4 class="media-heading">Nested Start Bootstrap
-                                    <small>August 25, 2014 at 9:30 PM</small>
-                                </h4>
-                                Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
-                            </div>
-                        </div>
-                        <!-- End Nested Comment -->
-                    </div>
-                </div>
-
-            </div>
-
-            <!-- Blog Sidebar Widgets Column -->
-            <div class="col-md-4">
-
-                <!-- Blog Search Well -->
-                <div class="well">
-                    <h4>Blog Search</h4>
-                    <div class="input-group">
-                        <input type="text" class="form-control">
-                        <span class="input-group-btn">
-                            <button class="btn btn-default" type="button">
-                                <span class="glyphicon glyphicon-search"></span>
-                        </button>
-                        </span>
-                    </div>
-                    <!-- /.input-group -->
-                </div>
-
-                <!-- Blog Categories Well -->
-                <div class="well">
-                    <h4>Blog Categories</h4>
-                    <div class="row">
-                        <div class="col-lg-6">
-                            <ul class="list-unstyled">
-                                <li><a href="#">Category Name</a>
-                                </li>
-                                <li><a href="#">Category Name</a>
-                                </li>
-                                <li><a href="#">Category Name</a>
-                                </li>
-                                <li><a href="#">Category Name</a>
-                                </li>
-                            </ul>
-                        </div>
-                        <div class="col-lg-6">
-                            <ul class="list-unstyled">
-                                <li><a href="#">Category Name</a>
-                                </li>
-                                <li><a href="#">Category Name</a>
-                                </li>
-                                <li><a href="#">Category Name</a>
-                                </li>
-                                <li><a href="#">Category Name</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                    <!-- /.row -->
-                </div>
-
-                <!-- Side Widget Well -->
-                <div class="well">
-                    <h4>Side Widget Well</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Inventore, perspiciatis adipisci accusamus laudantium odit aliquam repellat tempore quos aspernatur vero.</p>
-                </div>
-
-            </div>
-
-        </div>
-        <!-- /.row -->
-
-        <hr>
-
-        <!-- Footer -->
-        <footer>
-            <div class="row">
-                <div class="col-lg-12">
-                    <p>Copyright &copy; Your Website 2014</p>
-                </div>
-            </div>
-            <!-- /.row -->
-        </footer>
-
-    </div>
-    <!-- /.container -->
-
-    <!-- jQuery -->
-    <script src="ui/js/jquery.js"></script>
-
-    <!-- Bootstrap Core JavaScript -->
-    <script src="ui/js/bootstrap.min.js"></script>
-
+</div>
+<div align="center" style="font-family:arial;color:#000;background: #f9f9f9;padding: 25px;">
+Copyright © 2014. <a href="http://www.templateclue.com/" target="_blank">Templateclue</a></div>
+</div>
 </body>
-
 </html>
