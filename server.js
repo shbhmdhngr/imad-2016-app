@@ -23,7 +23,7 @@ app.get('/', function (req, res) {
 });
 
 
-var pool = new Pool(config)
+var pool = new Pool(config);
 
 
 app.get('/test-do', function (req, res) {
